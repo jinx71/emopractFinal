@@ -48,7 +48,7 @@ const AboutHero = () => {
       <div>
         <div
           className='bg-[url("./Images/aboutHero.png")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px]  backgroundImage '
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]   backgroundImage '
         >
           {/* ============= mobile menu ========== */}
           <nav className="lg:hidden ">
@@ -169,7 +169,7 @@ const AboutHero = () => {
           {/* bg img footer content */}
           <div className="heroImgParent">
             <div>
-              {/* <h2 className="heroImgTitle">About</h2> */}
+              <h2 className="heroImgTitle">About</h2>
               <p className=" heroImgContentPara ">
                 Home{" "}
                 <span>
