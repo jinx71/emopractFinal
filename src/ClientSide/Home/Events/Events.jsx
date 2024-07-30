@@ -215,9 +215,9 @@ const Events = () => {
         </Slider>
       </div>
 
-      <div className="slider-container hidden:md block">
+      <div className="slider-container md:hidden block">
         <Slider {...settings}>
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/47s1R83/Independence-Day-Fusion-Celebration-1.png")] bg-no-repeat  bg-center bg-cover h-[504px] '>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/47s1R83/Independence-Day-Fusion-Celebration-1.png")] bg-no-repeat  bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full ">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px]">
                 <h3 className="memberSliderTitle">
@@ -241,7 +241,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/jWkfCbT/Story-Telling-Session.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/jWkfCbT/Story-Telling-Session.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">Story Telling Session</h3>
@@ -263,7 +263,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/TWPd72y/Durga-Puja-Preview.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/TWPd72y/Durga-Puja-Preview.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">Durga Puja Preview</h3>
@@ -285,7 +285,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/m5xcTGT/Diwali-On.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/m5xcTGT/Diwali-On.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">Diwali On</h3>
@@ -307,7 +307,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/HPrmJKc/Children-s-Day-Elders-Way.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/HPrmJKc/Children-s-Day-Elders-Way.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">
@@ -331,7 +331,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/8bW7J5b/Laugh-all-the-way.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/8bW7J5b/Laugh-all-the-way.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">Laugh all the way </h3>
@@ -353,7 +353,7 @@ const Events = () => {
             </div>
           </div>
 
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/3F3KcKk/Xmas-to-New-Year-Party-copy.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
+          <div className='rounded-[10px] bg-[url("https://i.ibb.co/3F3KcKk/Xmas-to-New-Year-Party-copy.png")] bg-no-repeat bg-center bg-cover h-[504px] mx-2'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
                 <h3 className="memberSliderTitle">Xmas to New Year Party </h3>

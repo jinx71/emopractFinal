@@ -4,60 +4,54 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
-
+import { useMediaQuery } from "react-responsive";
+import membershipCardOne from '../../../../public/Images/membership/Card 1.png';
+import membershipCardTwo from '../../../../public/Images/membership/Card 2.png';
+import membershipCardThree from '../../../../public/Images/membership/Card 3.png';
 const MembershipHome = () => {
   const joyItems = [
     {
-      imgSrc:
-        "https://i.ibb.co/fSs0N5s/Whats-App-Image-2024-07-24-at-10-22-36-AM-4.jpg",
+      imgSrc: membershipCardOne,
     },
     {
-      imgSrc:
-        "/public/Images/membership/WhatsApp Image 2024-07-24 at 10.22.36 AM (3).jpeg",
+      imgSrc: membershipCardTwo,
     },
     {
-      imgSrc:
-        "https://i.ibb.co/zrHWpYx/Whats-App-Image-2024-07-24-at-10-22-35-AM.jpg",
+      imgSrc: membershipCardThree,
     },
   ];
+
+  const is2XL = useMediaQuery({ minWidth: 1536 });
+  const isXl = useMediaQuery({ minWidth: 1366 });
+  const isLg = useMediaQuery({ minWidth: 1024 });
+  const isMd = useMediaQuery({ minWidth: 768 });
+
+  let slidesToShow = 1;
+  let slidesToScroll = 1;
+
+  if (is2XL) {
+    slidesToShow = 3;
+    slidesToScroll = 1;
+  } else if (isXl) {
+    slidesToShow = 3;
+    slidesToScroll = 2;
+  } else if (isLg) {
+    slidesToShow = 2;
+    slidesToScroll = 2;
+  } else if (isMd) {
+    slidesToShow = 1;
+    slidesToScroll = 1;
+  }
 
   const settings = {
     dots: true,
     infinite: true,
+    autoplay: true,
     speed: 500,
-    slidesToShow: 1,
-    slidesToScroll: 1,
-    responsive: [
-      {
-        breakpoint: 450,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 2,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1024,
-        settings: {
-          slidesToShow: 3,
-          slidesToScroll: 1,
-        },
-      },
-      {
-        breakpoint: 1536,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-        },
-      },
-    ],
+    slidesToShow: slidesToShow,
+    slidesToScroll: slidesToScroll,
   };
+
   return (
     <div className="bg-[#EDEDED] sectionGap">
       <div className="py-[51px] px-[30px] 2xl-[100px] xl-[100px] md-[100px] ">
