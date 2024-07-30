@@ -45,7 +45,7 @@ const AboutHero = () => {
   // https://res.cloudinary.com/dshn2s0tc/image/upload/v1719490307/Emopract/coomonHero_jzrn0s.png
   return (
     <div>
-      <div>
+      <div className="">
         <div
           className='bg-[url("./Images/aboutHero.png")]
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]   backgroundImage '
@@ -167,7 +167,7 @@ const AboutHero = () => {
           </div>
 
           {/* bg img footer content */}
-          <div className="heroImgParent">
+          <div className="heroImgParent ">
             <div>
               <h2 className="heroImgTitle">About</h2>
               <p className=" heroImgContentPara ">

@@ -35,7 +35,7 @@ const HeroSection = () => {
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    autoplay: true,
+    autoplay: false,
     autoplaySpeed: 3000,
     arrows: false,
   };
@@ -180,8 +180,8 @@ const HeroSection = () => {
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '
             >
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent">
-                <div>
+              <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[400px] lg:h-[100vh] bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+                <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
                   </h2>
@@ -225,8 +225,8 @@ const HeroSection = () => {
           bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
               
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent">
-                <div>
+              <div className="HomeheroImgParent flex items-end h-[400px] lg:h-[100vh] h-full w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+                <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
                   </h2>
@@ -270,8 +270,8 @@ const HeroSection = () => {
             className='
           bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent">
-                <div>
+              <div className="HomeheroImgParent flex items-end h-[400px] lg:h-[100vh] h-full w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+                <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
                   </h2>
