@@ -59,7 +59,7 @@ const MembershipHome = () => {
           <p className="homeMemberShipSamll 2xl:text-center xl:text-center lg:text-center md:text-center">
             Our Membership
           </p>
-          <h3 className="homeMemberShipTitle ">membership package</h3>
+          <h3 className="homeMemberShipTitle text-center">membership package</h3>
         </div>
         {/* <div
           className="grid grid-cols-1 gap-y-[15px] cursor-pointer
