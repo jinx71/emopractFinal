@@ -191,7 +191,7 @@ const PopularService = () => {
             </div>
           </div>
 
-          <div>
+          <div className="">
             <div className="px-[36px] pt-[40px]">
               <p className="getIntouchSmall">Get In Touch</p>
               <h3 className="getTitle">free consultation</h3>
@@ -387,7 +387,7 @@ const PopularService = () => {
              lg:grid-cols-2 lg:pt-[530px] lg:mx-[100px] lg:gap-x-[50px]
             md:grid-cols-2 md:pt-[530px] md:mx-[50px] md:gap-x-[30px]"
             >
-              <div className="  ">
+              <div className="mt-24 ">
                 <div className="w-full h-full   bg-[#F2F2F2]   rounded-[10px]">
                   <h3 className="eventCardTitle text-[#7EA254]">
                     request for a session!
@@ -428,7 +428,7 @@ const PopularService = () => {
                 </div>
               </div>
 
-              <div className=" w-full">
+              <div className=" w-full mt-24">
                 <div className="w-full">
                   <p className="getIntouchSmall 2xl:pt-0 xl:pt-0 md:pt-0">
                     Get In Touch

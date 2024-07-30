@@ -55,13 +55,13 @@ const Events = () => {
 
       <div className="slider-container hidden md:block">
         <Slider {...settings}>
-          <div className='rounded-[10px] bg-[url("https://i.ibb.co/tKZjdkt/image-01-2.png")] bg-no-repeat  bg-center bg-cover h-[504px] '>
-            <div className="px-[26px] pb-[25px] flex items-end h-full ">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+          <div className='rounded-[10px]  bg-[url("https://i.ibb.co/tKZjdkt/image-01-2.png")] bg-no-repeat  bg-center bg-cover h-[504px] '>
+            <div className="px-[26px] pb-[25px] flex items-end h-full">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">
                   Independence Day - Fusion Celebration
                 </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -81,9 +81,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/rcB3Grv/image-02-2.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Story Telling Session</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -103,9 +103,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/86ZNyTh/image-03.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Durga Puja Preview</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -125,9 +125,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/gZqQsvd/image-04-3.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Diwali On</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -147,11 +147,11 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/h94jFP8/image-05-1.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">
                   Children's Day - Elders Way
                 </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -171,9 +171,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/mCQcmQw/image-07.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Laugh all the way </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -193,9 +193,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/NWxXrj5/image-11.png")] bg-no-repeat bg-center bg-cover h-[504px]'>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Xmas to New Year Party </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -218,12 +218,12 @@ const Events = () => {
       <div className="slider-container md:hidden block">
         <Slider {...settings}>
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/47s1R83/Independence-Day-Fusion-Celebration-1.png")] bg-no-repeat  bg-center bg-cover h-[504px]'>
-            <div className="px-[26px] pb-[25px] flex items-end h-full ">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px]">
+            <div className="px-[26px] pb-[25px] flex items-end h-full border">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">
                   Independence Day - Fusion Celebration
                 </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -243,9 +243,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/jWkfCbT/Story-Telling-Session.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Story Telling Session</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -265,9 +265,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/TWPd72y/Durga-Puja-Preview.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Durga Puja Preview</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -287,9 +287,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/m5xcTGT/Diwali-On.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Diwali On</h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -309,11 +309,11 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/HPrmJKc/Children-s-Day-Elders-Way.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">
                   Children's Day - Elders Way
                 </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -333,9 +333,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/8bW7J5b/Laugh-all-the-way.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Laugh all the way </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
@@ -355,9 +355,9 @@ const Events = () => {
 
           <div className='rounded-[10px] bg-[url("https://i.ibb.co/3F3KcKk/Xmas-to-New-Year-Party-copy.png")] bg-no-repeat bg-center bg-cover h-[504px] '>
             <div className="px-[26px] pb-[25px] flex items-end h-full">
-              <div className="bg-white px-[25px] py-[17px] rounded-[10px] ">
+              <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Xmas to New Year Party </h3>
-                <div className="flex items-center justify-center text-center">
+                <div className="flex items-center justify-start text-center">
                   <IoLocationSharp className="text-[#7EA254]" />
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
