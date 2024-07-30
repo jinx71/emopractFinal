@@ -42,7 +42,7 @@ const MemberTrending = () => {
     <div className="sectionGap">
       <div>
         <p className="memberSmall">Events</p>
-        <h2 className="memberTitle pb-[25px] lg:pb-[50px]">Trending events</h2>
+        <h2 className="memberTitle pb-[25px] lg:pb-[50px]">trending events</h2>
       </div>
 
       {/* ========= mobile slider ==== */}

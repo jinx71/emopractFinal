@@ -47,7 +47,7 @@ const Events = () => {
       <div>
         <p className="memberSmall">Events</p>
         <h2 className="memberTitle pb-[25px] lg:pb-[50px] md:pb-[50px] ">
-          Trending events
+          trending events
         </h2>
       </div>
 

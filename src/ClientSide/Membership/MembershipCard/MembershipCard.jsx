@@ -2,7 +2,9 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { FaCircleCheck } from 'react-icons/fa6';
-
+import cardOne from '../../../../public/Images/membership/card_one.jpg';
+import cardTwo from '../../../../public/Images/membership/card_two.png';
+import cardThree from '../../../../public/Images/membership/card_three.png';
 const MembershipCard = () => {
     return (
         <div className='sectionGap'>
@@ -14,7 +16,9 @@ const MembershipCard = () => {
             {/*======== membership cards ========= */}
 
             <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[25px] xl:grid-cols-3 gap-y-[25px]'>
-                <div className='rounded-[20px] p-[30px] bg-[#7EA254] lg:bg-transparent memberSubparentCard group '>
+                
+                {/* ============ card one========== */}
+                {/* <div className='rounded-[20px] p-[30px] bg-[#7EA254] lg:bg-transparent memberSubparentCard group '>
                     <p className='memberCardExpert'>Expert</p>
                     <div className='memberPriceParent'>
                         <h2 className='memberCardPriceTtile'>Rs.30,000</h2>
@@ -61,10 +65,12 @@ const MembershipCard = () => {
                             <p>Hello ep !! Calls (Customised as per Member)</p>
                         </div>
                     </div>
+                </div> */}
+                <div>
+                    <img src={cardOne}></img>
                 </div>
-
                 {/* ============ card two========== */}
-                <div className='rounded-[20px] p-[30px] lg:bg-[#7EA254] bg-transparent memberSubparentCard group '>
+                {/* <div className='rounded-[20px] p-[30px] lg:bg-[#7EA254] bg-transparent memberSubparentCard group '>
                     <p className='memberCardExpert2'>Expert</p>
                     <div className='memberPriceParent2'>
                         <h2 className='memberCardPriceTtile2'>Rs.30,000</h2>
@@ -111,9 +117,12 @@ const MembershipCard = () => {
                             <p>Hello ep !! Calls (Customised as per Member)</p>
                         </div>
                     </div>
+                </div> */}
+                <div>
+                    <img src={cardTwo}></img>
                 </div>
                 {/* =================== card theree============== */}
-                <div className='rounded-[20px] p-[30px]  memberSubparentCard group '>
+                {/* <div className='rounded-[20px] p-[30px]  memberSubparentCard group '>
                     <p className='memberCardExpert3'>Expert</p>
                     <div className='memberPriceParent'>
                         <h2 className='memberCardPriceTtile3'>Rs.30,000</h2>
@@ -160,6 +169,9 @@ const MembershipCard = () => {
                             <p>Hello ep !! Calls (Customised as per Member)</p>
                         </div>
                     </div>
+                </div> */}
+                <div>
+                    <img src={cardThree}></img>
                 </div>
 
             </div>
