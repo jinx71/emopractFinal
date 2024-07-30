@@ -180,7 +180,7 @@ const HeroSection = () => {
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '
             >
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="HomeheroImgParent">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -225,7 +225,7 @@ const HeroSection = () => {
           bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
               
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="HomeheroImgParent">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -270,7 +270,7 @@ const HeroSection = () => {
             className='
           bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
               {/* Hero Image Content */}
-              <div className="heroImgParent">
+              <div className="HomeheroImgParent">
                 <div>
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
