@@ -47,7 +47,7 @@ const BlogHero = () => {
       <div>
         <div
           className='bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719490307/Emopract/coomonHero_jzrn0s.png")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] backgroundImage brig'
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] backgroundImage brig'
         >
           {/* ============= mobile menu ========== */}
           <nav className="lg:hidden ">
