@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import doctorPhotoOne from '../../../../public/Images/aboutClient1.png';
-import doctorPhotoTwo from '../../../../public/Images/aboutClient2.png';
+import doctorPhotoTwo from '../../../../public/Images/aboutClient3.png';
 const AboutOurStory = () => {
   return (
     <div>
