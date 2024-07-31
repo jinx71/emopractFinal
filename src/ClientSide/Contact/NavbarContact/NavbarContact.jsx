@@ -21,7 +21,7 @@ const NavbarContact = () => {
     <div>
       <div
         className='bg-[url("https://i.ibb.co/KmNfgfX/Whats-App-Image-2024-07-20-at-8-45-58-AM.jpg")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] backgroundImage brig'
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] backgroundImage brig flex flex-col justify-between'
       >
         {/* ============= mobile menu ========== */}
         <nav className="lg:hidden ">

@@ -22,7 +22,7 @@ const ServiceHero = () => {
       <div>
         <div
           className='bg-[url("./Images/servicesHeroBanner.png")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]  backgroundImage brig'
+            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]  backgroundImage brig flex flex-col justify-between'
         >
           {/* ============= mobile menu ========== */}
           <nav className="lg:hidden ">
