@@ -1,7 +1,8 @@
 /* eslint-disable no-irregular-whitespace */
 // eslint-disable-next-line no-unused-vars
 import React from "react";
-
+import doctorPhotoOne from '../../../../public/Images/aboutClient1.png';
+import doctorPhotoTwo from '../../../../public/Images/aboutClient2.png';
 const AboutOurStory = () => {
   return (
     <div>
@@ -55,7 +56,9 @@ const AboutOurStory = () => {
             <div className=" flex justify-center w-full absolute top-[-127px] 2xl:top-[-200px] ">
               <div className="flex justify-center  ">
                 {/* https://res.cloudinary.com/dshn2s0tc/image/upload/v1719474791/Emopract/doctorOne_g8kwet.jpg */}
-                <div className='bg-[url("./Images/aboutClient1.png")] bg-no-repeat bg-cover bg-center h-[231px] w-[274px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px] rounded-[10px]'>
+                <div 
+                style={{backgroundImage : `url(${doctorPhotoOne})`}}
+                className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px] rounded-[10px]'>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
                       <h4 className="storyDoctorName text-white">
@@ -69,7 +72,9 @@ const AboutOurStory = () => {
                 </div>
               </div>
               <div className="flex justify-center hidden md:block md:pl-[20px] 2xl:pl-[40px] ">
-                <div className='bg-[url("./Images/aboutClient2.PNG")] bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px]'>
+                <div 
+                style={{backgroundImage : `url(${doctorPhotoTwo})`}}
+                className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px]'>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
                       <h4 className="storyDoctorName text-white">
@@ -86,7 +91,9 @@ const AboutOurStory = () => {
 
             <div>
               <div className="flex justify-center pt-[135px] md:hidden ">
-                <div className='bg-[url("./Images/aboutClient2.PNG")] bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] '>
+                <div 
+                style={{backgroundImage : `url(${doctorPhotoTwo})`}}
+                className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] '>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
                       <h4 className="storyDoctorName text-white">

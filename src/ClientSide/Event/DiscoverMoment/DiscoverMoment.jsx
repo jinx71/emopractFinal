@@ -1,6 +1,8 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import { Link } from "react-router-dom";
+import discoverMomentPhotoOne from '../../../../public/Images/discover/A7406096.jpg';
+import discoverMomentPhotoTwo from '../../../../public/Images/discover/IMG_20240727_011328.jpeg';
 
 const DiscoverMoment = () => {
   return (
@@ -40,7 +42,7 @@ const DiscoverMoment = () => {
             <div className="img2 w-full">
               <img
                 className="h-full w-full object-cover rounded-[10px]"
-                src="/public/Images/discover/A7406096.jpg"
+                src= {discoverMomentPhotoOne}
                 alt=""
               />
             </div>
@@ -63,7 +65,7 @@ const DiscoverMoment = () => {
         >
           <img
             className="h-full w-full object-cover rounded-[10px]"
-            src="/Images/discover/IMG_20240727_011328.jpeg"
+            src={discoverMomentPhotoTwo}
             alt=""
           />
         </div>
