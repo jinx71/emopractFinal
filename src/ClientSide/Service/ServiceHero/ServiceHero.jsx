@@ -4,6 +4,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import serviceHeroImage from '../../../../public/Images/servicesHeroBanner.png';
 
 const ServiceHero = () => {
   const [open, setOpen] = useState(false);
@@ -21,7 +22,8 @@ const ServiceHero = () => {
     <div>
       <div>
         <div
-          className='bg-[url("./Images/servicesHeroBanner.png")]
+          style = {{backgroundImage : `url(${serviceHeroImage})`}}
+          className='
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]  backgroundImage brig flex flex-col justify-between'
         >
           {/* ============= mobile menu ========== */}

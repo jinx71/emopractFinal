@@ -29,6 +29,7 @@ import { FaAngleRight } from "react-icons/fa";
 import { IoMenu } from "react-icons/io5";
 import { MdClose } from "react-icons/md";
 import { Link } from "react-router-dom";
+import aboutHeroImage from '../../../../public/Images/aboutHero.png';
 
 const AboutHero = () => {
   const [open, setOpen] = useState(false);
@@ -47,7 +48,8 @@ const AboutHero = () => {
     <div>
       <div className="">
         <div
-          className='bg-[url("./Images/aboutHero.png")]
+        style={{backgroundImage : `url(${aboutHeroImage})`}}
+          className='
             bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh]  backgroundImage flex flex-col justify-between'
         >
           {/* ============= mobile menu ========== */}
