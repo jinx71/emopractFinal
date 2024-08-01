@@ -47,7 +47,7 @@ const BlogHero = () => {
       <div>
         <div
           className='bg-[url("https://res.cloudinary.com/dshn2s0tc/image/upload/v1719490307/Emopract/coomonHero_jzrn0s.png")]
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] backgroundImage brig flex flex-col justify-between'
+            bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] backgroundImage brig flex flex-col justify-between'
         >
           {/* ============= mobile menu ========== */}
           <nav className="lg:hidden ">
@@ -106,9 +106,9 @@ const BlogHero = () => {
                       <li>Events</li>
                     </Link>
 
-                    <Link to="/blogs" onClick={menuClose}>
+                    {/* <Link to="/blogs" onClick={menuClose}>
                       <li>Blogs</li>
-                    </Link>
+                    </Link> */}
                     <Link to="/contact" onClick={menuClose}>
                       <li>Contact us</li>
                     </Link>
@@ -150,9 +150,9 @@ const BlogHero = () => {
                       <li>Events</li>
                     </Link>
 
-                    <Link to="/blogs" onClick={menuClose}>
+                    {/* <Link to="/blogs" onClick={menuClose}>
                       <li>Blogs</li>
-                    </Link>
+                    </Link> */}
                     <Link to="/contact" onClick={menuClose}>
                       <li>Contact us</li>
                     </Link>
@@ -166,7 +166,7 @@ const BlogHero = () => {
           </div>
 
           {/* bg img footer content */}
-          <div className="heroImgParent">
+          <div className="heroImgParent hidden">
             <div>
               <h2 className="heroImgTitle">Blog</h2>
               <p className=" heroImgContentPara ">

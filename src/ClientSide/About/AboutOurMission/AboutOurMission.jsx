@@ -1,12 +1,12 @@
 import "./AboutOurMission.css";
-
+import serviceWellness from '../../../../public/Images/servicesWellness2.png';
 const AboutOurMission = () => {
   return (
     <div className="w-full mx-auto sectionGap">
       <div className="md:px-[10px] 2xl:px-[10px] rounded-[10px]">
-        <div className="relative h-[400px] md:h-[450px] xl:h-[550px] 2xl:h-[700px] group">
+        <div className="relative h-[100vh] md:h-[450px] xl:h-[550px] 2xl:h-[700px] group">
           <img
-            src="./Images/servicesWellness2.png"
+            src={serviceWellness}
             alt=""
             className="h-full w-full object-cover rounded-[10px]"
           />

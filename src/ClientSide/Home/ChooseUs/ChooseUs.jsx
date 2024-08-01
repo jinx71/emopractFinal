@@ -4,6 +4,31 @@ import { Link } from "react-router-dom";
 
 const ChooseUs = () => {
   return (
+    <>
+     <div className="sectionGap">
+      <div className="text-center">
+        {/* <div className="chooseUsImgParent">
+          <img
+            className="h-full w-full object-cover  rounded-[10px]"
+            src="https://i.ibb.co/gRLF35Z/WDW-0772-3.jpg"
+            alt=""
+          />
+        </div> */}
+        <div>
+          {/* <p className="chooseUsSamll">Why Choose Us</p> */}
+          <h3 className="chooseUsTitle">embrace empathize empower</h3>
+          <p className="chooseUsParaText">
+          Elders are our roots. They envelop us in affection, and motivate us to fly high. In turn, we need to be their shade and support, ensuring "Wellness" in their advanced years, and providing "Joys of Living"  when they need them the most
+          </p>
+
+          <Link to="/about">
+            <button className="chooseusKnowbtn">Know More</button>
+          </Link>
+        </div>
+      </div>
+    </div>
+    
+
     <div className="sectionGap">
       <div className="chooseUsParent">
         <div className="chooseUsImgParent">
@@ -29,6 +54,8 @@ const ChooseUs = () => {
         </div>
       </div>
     </div>
+    </>
+    
   );
 };
 

@@ -4,6 +4,7 @@ import NavbarContact from "./NavbarContact/NavbarContact";
 import ContactEvent from "./ContactEvent/ContactEvent";
 import ContactFaq from "./ContactFaq/ContactFaq";
 import Footer from "../Shared/Footer/Footer";
+import Chatbot from "../Shared/Chatbot/Chatbot";
 
 const Contact = () => {
   return (
@@ -11,6 +12,7 @@ const Contact = () => {
       <NavbarContact></NavbarContact>
       <ContactEvent></ContactEvent>
       <ContactFaq></ContactFaq>
+      <Chatbot></Chatbot>
       <Footer></Footer>
     </div>
   );

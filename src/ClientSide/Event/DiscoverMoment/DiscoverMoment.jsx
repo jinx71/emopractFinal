@@ -3,6 +3,8 @@ import React from "react";
 import { Link } from "react-router-dom";
 import discoverMomentPhotoOne from '../../../../public/Images/discover/A7406096.jpg';
 import discoverMomentPhotoTwo from '../../../../public/Images/discover/IMG_20240727_011328.jpeg';
+import discoverMomentPhotoThree from '../../../../public/Images/discover/A7405850.jpg';
+import discoverReel from '../../../../public/Images/discover/reel.mp4';
 
 const DiscoverMoment = () => {
   return (
@@ -19,7 +21,7 @@ const DiscoverMoment = () => {
             className="eventGarlleryTitle 2xl:text-center xl:text-center
         lg:text-center md:text-center"
           >
-            a visual journey through our gallery
+            a visual journey
           </h2>
         </div>
 
@@ -35,7 +37,7 @@ const DiscoverMoment = () => {
             <div className="img1 w-full">
               <img
                 className="h-full w-full object-cover  rounded-[10px]"
-                src="https://i.ibb.co/b3KB6HH/A7405850-3.jpg"
+                src={discoverMomentPhotoThree}
                 alt=""
               />
             </div>
@@ -49,10 +51,12 @@ const DiscoverMoment = () => {
           </div>
 
           <div>
-            <div className="img3 w-full">
-              <img
-                className="h-full w-full  rounded-[10px]"
-                src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719349784/Emopract/img3_y7z7gq.jpg"
+            <div className="h-full ">
+              <video
+                className="h-full w-full rounded-[10px]"
+                src={discoverReel} 
+                controls
+                height={800}
                 alt=""
               />
             </div>
@@ -70,7 +74,7 @@ const DiscoverMoment = () => {
           />
         </div>
 
-        <Link to="/blogs">
+        <Link to="/">
           <button className="discoverKnowMore">Know More</button>
         </Link>
       </div>
@@ -91,7 +95,7 @@ const DiscoverMoment = () => {
               a visual journey through our gallery
             </h2>
 
-            <Link to="/blogs">
+            <Link to="/">
               <button className="discoverKnowMore">Know More</button>
             </Link>
           </div>

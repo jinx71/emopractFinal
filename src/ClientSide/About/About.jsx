@@ -6,6 +6,7 @@ import AboutOurStory from './AboutOurStory/AboutOurStory';
 import AboutOurTeam from './AboutOurTeam/AboutOurTeam';
 import Footer from '../Shared/Footer/Footer';
 import AboutOurMission from './AboutOurMission/AboutOurMission';
+import Chatbot from '../Shared/Chatbot/Chatbot';
 
 
 const About = () => {
@@ -16,6 +17,7 @@ const About = () => {
             <AboutOurStory></AboutOurStory>
             <AboutOurMission></AboutOurMission>
             <AboutOurTeam></AboutOurTeam>
+            <Chatbot></Chatbot>
             <Footer></Footer>
         </div>
     );

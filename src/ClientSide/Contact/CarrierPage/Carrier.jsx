@@ -12,11 +12,11 @@ const CarrierPage = () => {
             let's chat: contact Us for personalized assistance!{" "}
           </h3>
 
-          <p className="contactDescription">
+          {/* <p className="contactDescription">
             Nam mollis aliquet hendrerit. Interdum et malesuada fames ac ante
             ipsum primis in faucibus. Curabitur augue purus, cursus maximus
             malesuada.
-          </p>
+          </p> */}
 
           {/* <div className='contactTitleSubttitleParent'>
                         <div className='contactIconParent'>

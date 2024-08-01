@@ -2,7 +2,7 @@
 // eslint-disable-next-line no-unused-vars
 import React from "react";
 import doctorPhotoOne from '../../../../public/Images/aboutClient1.png';
-import doctorPhotoTwo from '../../../../public/Images/aboutClient3.png';
+import doctorPhotoTwo from '../../../../public/Images/aboutClient3.jpg';
 const AboutOurStory = () => {
   return (
     <div>
@@ -61,11 +61,11 @@ const AboutOurStory = () => {
                 className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px] rounded-[10px]'>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
-                      <h4 className="storyDoctorName text-white">
+                      <h4 className="storyDoctorName text-[#7EA254]">
                         Gourab Nath Ghosh
                       </h4>
-                      <p className="storyDoctorDes">
-                        <i>paffectionately - GG</i>
+                      <p className="storyDoctorDes text-white">
+                        <i>affectionately - GG</i>
                       </p>
                     </div>
                   </div>
@@ -77,11 +77,11 @@ const AboutOurStory = () => {
                 className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] lg:w-[300px] lg:h-[250px] 2xl:w-[498px] 2xl:h-[366px]'>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
-                      <h4 className="storyDoctorName text-white">
+                      <h4 className="storyDoctorName text-[#7EA254]">
                       Dhrubajyoti Bose
                       </h4>
-                      <p className="storyDoctorDes">
-                        <i>paffectionately - Suvo</i>
+                      <p className="storyDoctorDes text-white">
+                        <i>affectionately - Suvo</i>
                       </p>
                     </div>
                   </div>
@@ -96,11 +96,11 @@ const AboutOurStory = () => {
                 className='bg-no-repeat bg-cover bg-center h-[231px] w-[274px] rounded-[10px] '>
                   <div className="flex items-end h-full pl-[15px] pb-[15px]">
                     <div>
-                      <h4 className="storyDoctorName text-white">
+                      <h4 className="storyDoctorName text-[#7EA254]">
                         Dhrubajyoti Bose
                       </h4>
-                      <p className="storyDoctorDes">
-                        <i>paffectionately - Suvo</i>
+                      <p className="storyDoctorDes text-white">
+                        <i>affectionately - Suvo</i>
                       </p>
                     </div>
                   </div>

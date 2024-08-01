@@ -10,6 +10,8 @@ import Testimonial from "./Testimonial/Testimonial";
 import Footer from "./../Shared/Footer/Footer";
 import AboutOurTeam from "../About/AboutOurTeam/AboutOurTeam";
 import Events from "./Events/Events";
+import Chatbot from "../Shared/Chatbot/Chatbot";
+
 
 const Home = () => {
   return (
@@ -21,8 +23,10 @@ const Home = () => {
       <MembershipHome></MembershipHome>
       <Reels></Reels>
       {/* <AboutOurTeam /> */}
+      <Chatbot></Chatbot>
       <DiscoverMoment></DiscoverMoment>
       {/* <Testimonial></Testimonial> */}
+      
       <Footer></Footer>
     </div>
   );

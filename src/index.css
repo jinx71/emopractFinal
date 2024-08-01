@@ -36,7 +36,7 @@
   }
 
   .commonParagraph {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* ========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -50,7 +50,7 @@
   }
 
   .CommonSmallText {
-    @apply text-[12px] leading-[14px] mt-[35px] mb-[15px]
+    @apply text-[14px] leading-[14px] mt-[35px] mb-[15px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:mt-[40px] md:mb-[20px]
     /* ========== */
@@ -62,7 +62,7 @@
   .heroImgContentPara {
     @apply pt-[15px] pb-[50px] text-[10px] leading-[26px]
     /* =========== */
-    lg:pt-[15px] lg:pb-[50px] lg:text-[12px] lg:justify-start
+    lg:pt-[15px] lg:pb-[50px] lg:text-[14px] lg:justify-start
     /* ============= */
     flex items-center justify-center text-white font-Varela font-normal;
   }
@@ -72,9 +72,9 @@
     /* ======== */
     md:pt-[30px] md:text-[16px]
     /* ======== */
-    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-white lg:space-x-[15px]
+    lg:pt-[0px] lg:text-[15px] lg:flex lg:list-none lg:text-black lg:space-x-[15px]
     /* ======== */
-    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-white xl:space-x-[25px]
+    xl:pt-[0px] xl:text-[18px] xl:flex xl:list-none xl:text-black xl:space-x-[25px]
     /* ============ */
     font-Ubuntu font-medium w-full;
   }
@@ -86,7 +86,7 @@
   }
 
   .largeScreenMenu {
-    @apply lg:px-[50px] lg:pt-[50px] xl:px-[100px] xl:pt-[60px]
+    @apply lg:px-[50px] lg:py-[12px] xl:px-[100px] xl:py-[15px]
     /* ========= */
     flex justify-between items-center;
   }
@@ -107,9 +107,9 @@
 
   /* ===== contact herosection ========= */
   .navbarLeftRightSpace {
-    @apply px-[32px] pt-[32px]
+    @apply px-[32px] py-[12px]
     /* -------- */
-    md:pt-[50px] md:px-[50px];
+    md:py-[25px] md:px-[50px];
   }
 
   .headerLogo {
@@ -123,7 +123,7 @@
   }
 
   .heroImgParent {
-    @apply text-center bg-gradient-to-t from-black to-transparent h-[280px] lg:h-[90vh] w-full flex items-end lg:justify-start justify-center
+    @apply text-center bg-gradient-to-t from-black to-transparent h-[280px] lg:h-[90vh] w-full hidden items-end lg:justify-start justify-center
     /* =========== */
     lg:text-left lg:pl-[50px] xl:pl-[100px]
     /* ========= */
@@ -148,7 +148,7 @@
   }
 
   .contactEventSmall {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* ========== */
     md:text-[14px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]
     /* ========= */
@@ -184,7 +184,7 @@
   }
 
   .contactCTAsubtitle {
-    @apply text-[12px] leading-[26px]
+    @apply text-[14px] leading-[26px]
     /* ======== */
     md:text-[14px] lg:text-[16px] xl:text-[16px] 2xl:text-[18px]
     /* ========== */
@@ -212,7 +212,7 @@
   }
 
   .formTitle {
-    @apply text-[12px] leading-[19px]
+    @apply text-[14px] leading-[19px]
     /* =========== */
     md:text-[14px] md:leading-[21px]
     /* ===== */
@@ -236,7 +236,7 @@
   }
 
   .contactSendBtn {
-    @apply text-[12px] leading-[24px] py-[4px]
+    @apply text-[14px] leading-[24px] py-[4px]
     /* ============ */
     md:text-[14px] md:py-[8px]
     /* ======= */
@@ -251,7 +251,7 @@
 
   /* ======================== contact faq section =============== */
   .contactFaqHub {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* ======== */
     font-Ubuntu font-bold;
   }
@@ -285,7 +285,7 @@
   }
 
   .faqAccordianTitleText {
-    @apply text-[12px] leading-[18px] py-[15px]
+    @apply text-[14px] leading-[18px] py-[15px]
     /* ========= */
     md:text-[14px] md:leading-[20px] md:py-[20px]
     /* ========= */
@@ -305,7 +305,7 @@
   .faqmessageParent {
     @apply mt-[32px] h-[354px] bg-[#EDEDED] rounded-[10px]
     /* =========== */
-    lg:h-[400px] 2xl:h-[674px]
+    lg:h-[100vh] 2xl:h-[674px]
     /* ========= */
     flex justify-center items-center text-center;
   }
@@ -317,7 +317,7 @@
   }
 
   .faqContactBtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[18px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[18px]
     /* =========== */
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
@@ -350,7 +350,7 @@
   }
 
   .footerTopBtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[17px] md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[18px] lg:text-[16px] lg:leading-[28px] lg:py-[8px] lg:px-[20px] xl:text-[16px] xl:leading-[28px] xl:py-[8px] xl:px-[20px] 2xl:text-[18px] 2xl:leading-[28px] 2xl:py-[24px] 2xl:px-[28px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[17px] md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[18px] lg:text-[16px] lg:leading-[28px] lg:py-[8px] lg:px-[20px] xl:text-[16px] xl:leading-[28px] xl:py-[8px] xl:px-[20px] 2xl:text-[18px] 2xl:leading-[28px] 2xl:py-[24px] 2xl:px-[28px]
     /* ============= */
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
@@ -370,7 +370,7 @@
   }
 
   .footerMenuText {
-    @apply text-[12px] leading-[18px] pb-[2px]
+    @apply text-[14px] leading-[18px] pb-[2px]
     /* ===========  */
     md:text-[14px] md:leading-[20px] md:pb-[4px]
     /* ===========  */
@@ -401,7 +401,7 @@
     @apply py-[10px] pl-[10px];
   }
   .hoverTitleGallery {
-    @apply text-[12px] leading-[15px]
+    @apply text-[14px] leading-[15px]
     /* ========== */
     font-Ubuntu font-bold;
   }
@@ -425,7 +425,7 @@
     font-Ubuntu font-bold;
   }
   .exploreMemberShip {
-    @apply text-[12px] leading-[24px] py-[4px] px-[15px] mt-[25px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[15px] mt-[25px]
     /* ============ */
     2xl:text-[18px] 2xl:leading-[27px]  2xl:mt-[66px]
     /* =======  */
@@ -446,7 +446,7 @@
   }
 
   .eventGallarySmall {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* =========== */
     md:text-[18px] md:leading-[18px]
     /* =========== */
@@ -509,7 +509,7 @@
 
   /* =============== */
   .discoverKnowMore {
-    @apply text-[12px] leading-[24px] py-[4px] px-[18px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[18px]
     /* ======= */
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
@@ -521,7 +521,7 @@
 
   /* ============================= */
   .memberSmall {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* ========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -547,7 +547,7 @@
   }
 
   .memberParaText {
-    @apply text-[12px] leading-[18px] pt-[15px] pb-[25px]
+    @apply text-[14px] leading-[18px] pt-[15px] pb-[25px]
     /* ============ */
     md:text-[14px] md:leading-[16px] md:pt-[20px] md:pb-[30px]
     /* ========== */
@@ -565,7 +565,7 @@
   }
 
   .memberCardExpert {
-    @apply text-[12px] leading-[13px]
+    @apply text-[14px] leading-[13px]
     /* =========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -588,7 +588,7 @@
   }
 
   .memberCardPriceSubTtile {
-    @apply text-[12px] leading-[18px]
+    @apply text-[14px] leading-[18px]
     /* ========= */
     /* ========== */
     md:text-[14px] md:leading-[16px]
@@ -607,7 +607,7 @@
   }
 
   .membermiddlePara {
-    @apply text-[12px] leading-[26px]
+    @apply text-[14px] leading-[26px]
     /* ========= */
     md:text-[14px] md:leading-[28px] lg:text-[16px] lg:leading-[30px] 2xl:text-[18px] 2xl:leading-[32px]
     /* ============ */
@@ -615,7 +615,7 @@
   }
 
   .memberApplyBtn {
-    @apply text-[12px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
+    @apply text-[14px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
     /* =========== */
     md:text-[14px] md:leading-[18px] md:py-[10px] md:mt-[35px] md:mb-[25px]
     /* =========== */
@@ -633,7 +633,7 @@
   }
 
   .memberCardItmesParent {
-    @apply space-x-[8px] space-y-0 text-[12px] leading-[26px]
+    @apply space-x-[8px] space-y-0 text-[14px] leading-[26px]
     /* ========= */
     md:text-[15px] md:leading-[28px] md:space-y-1
     /* ========== */
@@ -646,7 +646,7 @@
 
   /* ===========two card =================*/
   .memberCardExpert2 {
-    @apply text-[12px] leading-[13px]
+    @apply text-[14px] leading-[13px]
     /* =========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -668,7 +668,7 @@
   }
 
   .memberCardPriceSubTtile2 {
-    @apply text-[12px] leading-[18px]
+    @apply text-[14px] leading-[18px]
     /* ========= */
     /* ========== */
     md:text-[14px] md:leading-[16px]
@@ -687,7 +687,7 @@
   }
 
   .membermiddlePara2 {
-    @apply text-[12px] leading-[26px]
+    @apply text-[14px] leading-[26px]
     /* ========= */
     md:text-[14px] md:leading-[28px] lg:text-[16px] lg:leading-[30px] 2xl:text-[18px] 2xl:leading-[32px]
     /* ============ */
@@ -695,7 +695,7 @@
   }
 
   .memberApplyBtn2 {
-    @apply text-[12px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
+    @apply text-[14px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
     /* =========== */
     md:text-[14px] md:leading-[18px] md:py-[10px] md:mt-[35px] md:mb-[25px]
     /* =========== */
@@ -713,7 +713,7 @@
   }
 
   .memberCardItmesParent2 {
-    @apply space-x-[8px] space-y-0 text-[12px] leading-[26px]
+    @apply space-x-[8px] space-y-0 text-[14px] leading-[26px]
     /* ========= */
     md:text-[15px] md:leading-[28px] md:space-y-1
     /* ========== */
@@ -726,7 +726,7 @@
 
   /* ======card there  */
   .memberCardExpert3 {
-    @apply text-[12px] leading-[13px]
+    @apply text-[14px] leading-[13px]
     /* =========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -749,7 +749,7 @@
   }
 
   .memberCardPriceSubTtile3 {
-    @apply text-[12px] leading-[18px]
+    @apply text-[14px] leading-[18px]
     /* ========= */
     /* ========== */
     md:text-[14px] md:leading-[16px]
@@ -768,7 +768,7 @@
   }
 
   .membermiddlePara3 {
-    @apply text-[12px] leading-[26px]
+    @apply text-[14px] leading-[26px]
     /* ========= */
     md:text-[14px] md:leading-[28px] lg:text-[16px] lg:leading-[30px] 2xl:text-[18px] 2xl:leading-[32px]
     /* ============ */
@@ -776,7 +776,7 @@
   }
 
   .memberApplyBtn3 {
-    @apply text-[12px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
+    @apply text-[14px] leading-[15px] py-[8px] mt-[35px] mb-[25px]
     /* =========== */
     md:text-[14px] md:leading-[18px] md:py-[10px] md:mt-[35px] md:mb-[25px]
     /* =========== */
@@ -794,7 +794,7 @@
   }
 
   .memberCardItmesParent3 {
-    @apply space-x-[8px] space-y-0 text-[12px] leading-[26px]
+    @apply space-x-[8px] space-y-0 text-[14px] leading-[26px]
     /* ========= */
     md:text-[15px] md:leading-[28px] md:space-y-1
     /* ========== */
@@ -813,19 +813,19 @@
   }
 
   .memberSliderSubtitle {
-    @apply text-[12px] leading-[11px] pt-[6px]
+    @apply text-[14px] leading-[11px] pt-[6px]
     /* =========== */
     font-Varela font-normal;
   }
 
   .memberHoverBtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[20px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[10px]
     /* ========= */
     font-Ubuntu font-medium text-white bg-[#7EA254] rounded-full;
   }
 
   .nonMemberHoverBtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[20px] border-[#7EA254] border-[1px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[10px] border-[#7EA254] border-[1px]
     /* ========= */
     font-Ubuntu font-medium rounded-full;
   }
@@ -836,7 +836,7 @@
   }
 
   .ourServiceSmall {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     /* ======== */
     md:text-[14px] md:leading-[16px] md:pb-[20px]
     /* ========== */
@@ -858,7 +858,7 @@
   }
 
   .ourServicePara {
-    @apply text-[12px] leading-[18px]
+    @apply text-[14px] leading-[18px]
     /* ======== */
     md:text-[14px] md:leading-[20px]
     /* ========== */
@@ -894,7 +894,7 @@
   }
 
   .joysPara {
-    @apply text-[12px] leading-[18px] pt-[15px] pb-[25px]
+    @apply text-[14px] leading-[18px] pt-[15px] pb-[25px]
     /* ======== */
     md:text-[14px] md:leading-[20px] md:pt-[20px] md:pb-[30px]
     /* ========== */
@@ -919,13 +919,13 @@
   }
 
   .joysFirstSliderSubtitle {
-    @apply text-[12px] leading-[18px] pb-[10px] px-[15%]
+    @apply text-[14px] leading-[18px] pb-[10px] px-[15%]
     /* =========== */
     font-Varela font-normal;
   }
 
   .joysFirstSliderMorebtn {
-    @apply text-[12px] leading-[17px] pb-[15px] underline
+    @apply text-[14px] leading-[17px] pb-[15px] underline
     /* =========== */
     font-Ubuntu font-bold text-[#7EA254];
   }
@@ -936,7 +936,7 @@
 
   /* ==========our story ======== */
   .ourStorySmall {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[20px]
     /* ========== */
@@ -966,7 +966,7 @@
   }
 
   .storyDoctorDes {
-    @apply text-[12px] leading-[20px]
+    @apply text-[14px] leading-[20px]
     /* ======= */
     md:text-[14px] md:leading-[16px] md:pb-[0px]
     /* ========== */
@@ -980,7 +980,7 @@
   }
 
   .ourStoryPara {
-    @apply text-[12px] leading-[18px] pb-[35px]
+    @apply text-[14px] leading-[18px] pb-[35px]
     /* =============== */
     md:text-[14px] md:leading-[16px] md:pb-[40px]
     /* ========== */
@@ -1022,7 +1022,7 @@
   }
 
   .storyDoctorDes {
-    @apply text-[12px] leading-[20px]
+    @apply text-[14px] leading-[20px]
     /* ======= */
     md:text-[14px] md:leading-[16px] md:pb-[0px]
     /* ========== */
@@ -1036,7 +1036,7 @@
   }
 
   .ourStoryPara {
-    @apply text-[12px] leading-[18px] pb-[35px]
+    @apply text-[14px] leading-[18px] pb-[35px]
     /* =============== */
     md:text-[14px] md:leading-[16px] md:pb-[40px]
     /* ========== */
@@ -1047,7 +1047,7 @@
     2xl:text-[18px] 2xl:leading-[26px] 2xl:pb-[50px] font-Varela font-normal text-center text-white;
   }
   .aboutTeamSubtitle {
-    @apply text-[12px] leading-[18px] pb-[10px]
+    @apply text-[14px] leading-[18px] pb-[10px]
     /* =========== */
     font-Varela font-normal;
   }
@@ -1062,7 +1062,7 @@
   }
 
   .missionPara {
-    @apply p-[15px] text-[12px] leading-[18px] md:p-[25px] md:text-[16px] md:leading-[20px] 2xl:px-[50px] 2xl:text-[18px] 2xl:leading-[27px] 
+    @apply p-[15px] text-[14px] leading-[18px] md:p-[25px] md:text-[16px] md:leading-[20px] 2xl:px-[50px] 2xl:text-[18px] 2xl:leading-[27px] 
     xl:px-[50px] xl:text-[18px] xl:leading-[27px]
     font-Varela font-normal;
   }
@@ -1073,7 +1073,7 @@
 
   /* ================ hero section styles ============ */
   .heroHomePara {
-    @apply text-[12px] leading-[14px] pb-[25px] px-[10%]
+    @apply text-[14px] leading-[14px] pb-[25px] px-[10%]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[30px] md:px-[15%]
     /* ========== */
@@ -1083,7 +1083,7 @@
   }
 
   .heroHomeBtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[15px] mb-[57px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[15px] mb-[57px]
     /* ========= */
     md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[17px] md:mb-[60px]
     /* ========= */
@@ -1109,7 +1109,7 @@
   }
 
   .chooseUsSamll {
-    @apply text-[12px] leading-[14px] pt-[35px] pb-[15px]
+    @apply text-[14px] leading-[14px] pt-[35px] pb-[15px]
     /* ========= */
     md:text-[14px] md:leading-[16px] md:pt-[40px] md:pb-[20px]
     /* ============ */
@@ -1135,7 +1135,7 @@
   }
 
   .chooseUsParaText {
-    @apply text-[12px] leading-[14px] pb-[25px]
+    @apply text-[14px] leading-[14px] pb-[25px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[30px]
     /* ========== */
@@ -1149,7 +1149,7 @@
   }
 
   .chooseusKnowbtn {
-    @apply text-[12px] leading-[24px] py-[4px] px-[17px]
+    @apply text-[14px] leading-[24px] py-[4px] px-[17px]
     /* ======== */
     md:text-[14px] md:leading-[26px] md:py-[6px] md:px-[19px]
     /* ======== */
@@ -1164,7 +1164,7 @@
 
   /* =============== popular service text ============== */
   .popularSmallText {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     /* ========= */
     md:text-[14px] md:leading-[16px] md:pt-[0px] md:pb-[20px]
     /* ============ */
@@ -1190,7 +1190,7 @@
   }
 
   .popularDes {
-    @apply text-[12px] leading-[14px] pb-[25px]
+    @apply text-[14px] leading-[14px] pb-[25px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[30px]
     /* ========== */
@@ -1203,7 +1203,7 @@
     font-Varela font-normal;
   }
   .popularDesLarge {
-    @apply text-[12px] leading-[14px] pb-[25px]
+    @apply text-[14px] leading-[14px] pb-[25px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[30px]
     /* ========== */
@@ -1231,7 +1231,7 @@
   }
 
   .popularSlidertext {
-    @apply text-[12px] leading-[18px] pb-[10px] px-[20%]
+    @apply text-[14px] leading-[18px] pb-[10px] px-[20%]
     /* ======== */
     md:text-[14px] md:leading-[20px] md:pb-[15px] md:px-[10%]
     /* ======== */
@@ -1241,13 +1241,13 @@
   }
 
   .popularReadMoreBtn {
-    @apply text-[12px] leading-[17px] mb-[25px]
+    @apply text-[14px] leading-[17px] mb-[25px]
     /* ======== */
     font-Ubuntu font-bold text-white underline;
   }
 
   .getIntouchSmall {
-    @apply text-[12px] leading-[14px] pb-[15px] pt-[35px]
+    @apply text-[14px] leading-[14px] pb-[15px] pt-[35px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[15px]
     /* ========== */
@@ -1273,7 +1273,7 @@
   }
 
   .getParaText {
-    @apply text-[12px] leading-[14px] pb-[25px]
+    @apply text-[14px] leading-[14px] pb-[25px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[30px]
     /* ========== */
@@ -1321,7 +1321,7 @@
 
   /* ============ home membershitp ========= */
   .homeMemberShipSamll {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     /* ======= */
     md:text-[18px] md:leading-[15px] md:pb-[15px]
     /* ======= */
@@ -1349,7 +1349,7 @@
   }
 
   .membershipPara {
-    @apply text-[12px] leading-[18px] pb-[15px]
+    @apply text-[14px] leading-[18px] pb-[15px]
     /* ========== */
     md:text-[18px] md:leading-[22px] 
     /* ========== */
@@ -1406,7 +1406,7 @@
 
   /* ============== testimonila home page-========== */
   .tesSamll {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     
     /* ======= */
     
@@ -1455,14 +1455,14 @@
   }
 
   .tesSlideDes {
-    @apply text-[12px] leading-[26px]
+    @apply text-[14px] leading-[26px]
     /* ======== */
     font-Varela font-normal;
   }
 
   /* ============= blog page ---------- */
   .ourBlogSmall {
-    @apply text-[12px] leading-[14px]
+    @apply text-[14px] leading-[14px]
     /* ========== */
     md:text-[14px] md:leading-[16px]
     /* ========== */
@@ -1504,15 +1504,15 @@
   }
 
   .blogParaText {
-    @apply text-[12px] leading-[15px] pb-[15px] md:text-[14px] md:leading-[18px] md:pb-[15px] lg:text-[16px] lg:leading-[20px] lg:pb-[15px] 2xl:text-[18px] 2xl:leading-[25px] 2xl:pb-[15px];
+    @apply text-[14px] leading-[15px] pb-[15px] md:text-[14px] md:leading-[18px] md:pb-[15px] lg:text-[16px] lg:leading-[20px] lg:pb-[15px] 2xl:text-[18px] 2xl:leading-[25px] 2xl:pb-[15px];
   }
 
   .blogBtn {
-    @apply text-[12px] leading-[15px] md:text-[14px] md:leading-[18px] lg:text-[16px] lg:leading-[20px] font-Ubuntu font-bold underline cursor-pointer;
+    @apply text-[14px] leading-[15px] md:text-[14px] md:leading-[18px] lg:text-[16px] lg:leading-[20px] font-Ubuntu font-bold underline cursor-pointer;
   }
 
   .caringBlogSmall {
-    @apply text-[12px] leading-[14px] pb-[15px]
+    @apply text-[14px] leading-[14px] pb-[15px]
     /* ========== */
     md:text-[14px] md:leading-[16px] md:pb-[20px]
     /* ========== */
@@ -1540,7 +1540,7 @@
   }
 
   .caringParaText {
-    @apply text-[12px] leading-[14px] 
+    @apply text-[14px] leading-[14px] 
     /* ========== */
     md:text-[14px] md:leading-[16px] 
     /* ========== */

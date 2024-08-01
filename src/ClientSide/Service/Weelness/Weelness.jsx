@@ -29,14 +29,14 @@ const joyItems = [
     link: "/joy-card-four",
     imgSrc:
       "https://i.ibb.co/CQpvSvX/Whats-App-Image-2024-07-30-at-1-42-05-PM.jpg",
-    title: "24 x 7 Support",
+    title: "24 x 7 Support IVR",
     // subtitle: "Pursuing hobbies and interests to enrich life experiences"
   },
   {
     link: "/joy-card-five",
     imgSrc:
       "https://i.ibb.co/4j1ksbk/Whats-App-Image-2024-07-30-at-1-50-00-PM-1.jpg",
-    title: "Emergency Assistance",
+    title: "Emergency Assist Ambulance",
     // subtitle: "Pursuing hobbies and interests to enrich life experiences"
   },
 ];
@@ -44,9 +44,10 @@ const joyItems = [
 const Weelness = () => {
   const settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
+    autoplay : true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -70,13 +71,8 @@ const Weelness = () => {
           slidesToScroll: 1,
         },
       },
-      {
-        breakpoint: 1536,
-        settings: {
-          slidesToShow: 4,
-          slidesToScroll: 1,
-        },
-      },
+     
+      
     ],
   };
 

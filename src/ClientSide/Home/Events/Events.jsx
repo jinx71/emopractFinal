@@ -41,13 +41,13 @@ const Events = () => {
 
   return (
     <div
-      className="mt-[120px] px-[32px] 2xl:px-[100px] 2xl:mt-[200px]
-    xl:px-[100px] xl:mt-[200px] lg:px-[60px] lg:mt-[80px] md:px-[60px] md:mt-[80px] "
+      className="mt-[190px] px-[32px] 2xl:px-[100px] 2xl:mt-[200px]
+    xl:px-[100px] xl:mt-[200px] lg:px-[60px] lg:mt-[80px] md:px-[60px] md:mt-[80px]"
     >
       <div>
         <p className="memberSmall">Events</p>
         <h2 className="memberTitle pb-[25px] lg:pb-[50px] md:pb-[50px] ">
-          trending events
+          Trending events
         </h2>
       </div>
 
@@ -61,11 +61,16 @@ const Events = () => {
                 <h3 className="memberSliderTitle">
                   Independence Day - Fusion Celebration
                 </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : August,17th
+                  </p>
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -83,11 +88,17 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Story Telling Session</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
+                <div className="flex items-center justify-start">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div>
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : September,21st	
+                  </p>
+
+                  </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -105,11 +116,17 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Durga Puja Preview</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : Sep,30th to Oct,4th
+                  </p>
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -127,11 +144,17 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Diwali On</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div>
+
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : October,26th	
+                  </p>
+                  </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -151,11 +174,17 @@ const Events = () => {
                 <h3 className="memberSliderTitle">
                   Children's Day - Elders Way
                 </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : November,14th	
+                  </p>
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -173,11 +202,19 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Laugh all the way </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : December,14th	
+	
+
+                  </p>
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -195,11 +232,18 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Xmas to New Year Party </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div>
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p className="memberSliderSubtitle">
+                    Date : December,28th	
+	
+
+                  </p>
+                  </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -223,11 +267,16 @@ const Events = () => {
                 <h3 className="memberSliderTitle">
                   Independence Day - Fusion Celebration
                 </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : August,17th	</p>
+	
+
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -245,11 +294,16 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Story Telling Session</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                 <div>
+                 <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : September,21st	
+	
+  </p>
+                 </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -267,11 +321,14 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Durga Puja Preview</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div><p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : Sep,30th to Oct,4th 	
+	
+  </p></div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -289,11 +346,16 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Diwali On</h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div>
                   <p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : October,26th	
+	
+  </p>
+                  </div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -313,11 +375,14 @@ const Events = () => {
                 <h3 className="memberSliderTitle">
                   Children's Day - Elders Way
                 </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div><p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : November,14th	
+	
+  </p></div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -335,11 +400,14 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Laugh all the way </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div><p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : December,14th	
+	
+  </p></div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">
@@ -357,11 +425,14 @@ const Events = () => {
             <div className="px-[26px] pb-[25px] flex items-end h-full">
               <div className="bg-white px-[25px] py-[17px] rounded-[10px] h-[190px] w-full flex flex-col justify-between">
                 <h3 className="memberSliderTitle">Xmas to New Year Party </h3>
-                <div className="flex items-center justify-start text-center">
-                  <IoLocationSharp className="text-[#7EA254]" />
-                  <p className="memberSliderSubtitle">
+                <div className="flex items-center justify-start ">
+                  {/* <IoLocationSharp className="text-[#7EA254]" /> */}
+                  <div><p className="memberSliderSubtitle">
                     Contrary to popular belief, is not
                   </p>
+                  <p>Date : December,28th	
+	
+  </p></div>
                 </div>
                 <div className="flex space-x-[15px] pt-[25px] pb-[15px] justify-center items-center">
                   <Link to="/event">

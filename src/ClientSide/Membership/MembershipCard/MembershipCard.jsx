@@ -2,20 +2,20 @@
 // eslint-disable-next-line no-unused-vars
 import React from 'react';
 import { FaCircleCheck } from 'react-icons/fa6';
-import cardOne from '../../../../public/Images/membership/card_one.jpg';
+import cardOne from '../../../../public/Images/membership/card_one.png';
 import cardTwo from '../../../../public/Images/membership/card_two.png';
 import cardThree from '../../../../public/Images/membership/card_three.png';
 const MembershipCard = () => {
     return (
         <div className='sectionGap'>
             <div className='lg:text-center'>
-                <p className='memberSmall'>our membership</p>
+                <p className='memberSmall'>Our membership</p>
                 <h2 className='memberTitle lg:pb-[50px]'>our membership package</h2>
-                <p className='memberParaText lg:hidden'>Do you want to live in a place full of comfort and convenience, where electricity is produced by itself and you also save on it? With us it can come true faster than you.</p>
+                {/* <p className='memberParaText lg:hidden'>Do you want to live in a place full of comfort and convenience, where electricity is produced by itself and you also save on it? With us it can come true faster than you.</p> */}
             </div>
             {/*======== membership cards ========= */}
 
-            <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[25px] xl:grid-cols-3 gap-y-[25px]'>
+            <div className='grid grid-cols-1 lg:grid-cols-2 lg:gap-x-[25px] xl:grid-cols-3 gap-y-[60px]'>
                 
                 {/* ============ card one========== */}
                 {/* <div className='rounded-[20px] p-[30px] bg-[#7EA254] lg:bg-transparent memberSubparentCard group '>

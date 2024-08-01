@@ -4,7 +4,7 @@ import { FaMinus, FaPlus } from 'react-icons/fa';
 import { MdOutlineMessage } from 'react-icons/md';
 
 const MembershipFaq = () => {
-    const [openAccordion, setOpenAccordion] = useState(1);
+    const [openAccordion, setOpenAccordion] = useState(0);
 
     const toggleAccordion = (index) => {
         setOpenAccordion(openAccordion === index ? null : index);
@@ -96,7 +96,7 @@ const MembershipFaq = () => {
                             className="flex justify-between items-center cursor-pointer"
                             onClick={() => toggleAccordion(4)}
                         >
-                            <h6 className="faqAccordianHeadText relative z-20"><span className="z-20">emopract services are available in which cities?</span></h6>
+                            <h6 className="faqAccordianHeadText relative z-20"><span className="z-20">Emopract services are available in which cities?</span></h6>
                             <span className="transform transition-transform duration-300 ease-linear">
                                 {openAccordion === 4 ? <div className='FaqiconsParent'><FaMinus className='text-white' /></div> : <div className='FaqiconsParent'><FaPlus className='text-white' /></div>}
                             </span>

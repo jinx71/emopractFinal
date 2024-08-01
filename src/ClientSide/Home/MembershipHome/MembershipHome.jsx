@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
 import { useMediaQuery } from "react-responsive";
-import membershipCardOne from '../../../../public/Images/membership/Card 1.png';
-import membershipCardTwo from '../../../../public/Images/membership/Card 2.png';
+import membershipCardOne from '../../../../public/Images/membership/Card 2.png';
+import membershipCardTwo from '../../../../public/Images/membership/Card 1.png';
 import membershipCardThree from '../../../../public/Images/membership/Card 3.png';
 const MembershipHome = () => {
   const joyItems = [

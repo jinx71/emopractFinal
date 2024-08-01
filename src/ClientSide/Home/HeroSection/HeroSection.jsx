@@ -11,6 +11,7 @@ import "./hero.css";
 import slideOne from "../../../../public/Images/slides/slide1.jpg";
 import slideTwo from "../../../../public/Images/slides/slide2.jpg";
 import slideThree from "../../../../public/Images/slides/slide3.jpg";
+import Navbar from "../../Shared/Navbar/Navbar";
 
 
 const HeroSection = () => {
@@ -58,129 +59,19 @@ const HeroSection = () => {
 
   return (
     <div className="relative">
-      {/* Fixed Navbar */}
-      <nav className={`lg:hidden fixed-navbar ${scrolled ? "hidden" : ""}`}>
-        <div className="navbarLeftRightSpace flex justify-between items-center ">
-          <div className="headerLogo">
-            <Link to="/">
-              <img
-                className="h-full w-full object-cover"
-                src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719302631/Emopract/mHeroLogo_techun.png"
-                alt="brand logo"
-              />
-            </Link>
-          </div>
-          <div>
-            <IoMenu
-              className="text-[35px] md:text-[38px] text-white"
-              onClick={handleMenu}
-            ></IoMenu>
-          </div>
-          {open && (
-            <ul className="p-[32px] absolute top-0 right-0 bg-white w-[100%] z-50 transition-transform duration-1000 ease-in-out">
-              <div className="pb-[30px] flex justify-between items-center border-b-2 border-gray-200">
-                <div className="headerLogo">
-                  <Link to="/">
-                    <img
-                      className="h-full w-full object-cover"
-                      src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719302631/Emopract/mHeroLogo_techun.png"
-                      alt="brand logo"
-                    />
-                  </Link>
-                </div>
-                <div
-                  className="md:text-[38px] text-[35px] font-title"
-                  onClick={handleClose}
-                >
-                  <MdClose />
-                </div>
-              </div>
-              <div className="mobileMenuParent">
-                <Link to="/" onClick={menuClose}>
-                  <li>Home</li>
-                </Link>
-                <Link to="/About" onClick={menuClose}>
-                  <li>About Us</li>
-                </Link>
-                <Link to="/service" onClick={menuClose}>
-                  <li>Our Service</li>
-                </Link>
-                <Link to="/membership" onClick={menuClose}>
-                  <li>Membership</li>
-                </Link>
-                <Link to="/event" onClick={menuClose}>
-                  <li>Events</li>
-                </Link>
-
-                <Link to="/blogs" onClick={menuClose}>
-                  <li>Blogs</li>
-                </Link>
-                <Link to="/contact" onClick={menuClose}>
-                  <li>Contact us</li>
-                </Link>
-              </div>
-            </ul>
-          )}
-        </div>
-      </nav>
-      {/* large screen nav */}
-      <div>
-        <div className="hidden lg:block absolute z-50 w-full">
-          <div className="largeScreenMenu ">
-            <div className="headerLogo">
-              <Link to="/">
-                <img
-                  className="h-full w-full object-cover"
-                  src="https://res.cloudinary.com/dshn2s0tc/image/upload/v1719302631/Emopract/mHeroLogo_techun.png"
-                  alt="brand logo"
-                />
-              </Link>
-            </div>
-
-            <div>
-              <div className="mobileMenuParent">
-                <Link to="/" onClick={menuClose}>
-                  <li>Home</li>
-                </Link>
-                <Link to="/About" onClick={menuClose}>
-                  <li>About Us</li>
-                </Link>
-                <Link to="/service" onClick={menuClose}>
-                  <li>Our Service</li>
-                </Link>
-                <Link to="/membership" onClick={menuClose}>
-                  <li>Membership</li>
-                </Link>
-                <Link to="/event" onClick={menuClose}>
-                  <li>Events</li>
-                </Link>
-
-                <Link to="/blogs" onClick={menuClose}>
-                  <li>Blogs</li>
-                </Link>
-                <Link to="/contact" onClick={menuClose}>
-                  <li>Contact us</li>
-                </Link>
-              </div>
-            </div>
-            <div>
-              <button className="homeLargeAppoinMent">Appointment</button>
-            </div>
-          </div>
-        </div>
-      </div>
+     <Navbar></Navbar>
 
       {/* Slider Container */}
       <div className="slider-container ">
         <Slider {...settings}>
           <div className="relative ">
             <div
-              style={{backgroundImage: `url(${slideTwo})`}}
+              style={{backgroundImage: `url(${slideOne})`}}
               className='
-            bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '
+            bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] '
             >
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[400px] lg:h-[100vh] bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex justify-center lg:justify-start items-end h-[100vh] lg:h-[100vh] bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -214,18 +105,18 @@ const HeroSection = () => {
 
                   <button className="heroHomeBtn">Request a Call back</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
           {/* slider two */}
           <div className="relative">
             <div 
-            style={{backgroundImage: `url(${slideOne})`}}
+            style={{backgroundImage: `url(${slideTwo})`}}
             className='
-          bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
+          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] '>
               
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent flex items-end h-[400px] lg:h-[100vh] h-full w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -259,7 +150,7 @@ const HeroSection = () => {
 
                   <button className="heroHomeBtn">Request a Call back</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -268,9 +159,9 @@ const HeroSection = () => {
             <div 
             style={{backgroundImage: `url(${slideThree})`}}
             className='
-          bg-no-repeat bg-center bg-cover w-[100%] h-[400px] lg:h-[100vh] '>
+          bg-no-repeat bg-center bg-cover w-[100%] h-[100vh] lg:h-[100vh] '>
               {/* Hero Image Content */}
-              <div className="HomeheroImgParent flex items-end h-[400px] lg:h-[100vh] h-full w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
+              {/* <div className="HomeheroImgParent flex items-end h-[100vh] lg:h-[100vh] w-full bg-slate-950 bg-clip-padding backdrop-filter backdrop-brightness-125  backdrop-blur-[1px] bg-opacity-60 saturate-100 backdrop-contrast-100">
                 <div className="lg:w-1/2 ">
                   <h2 className="commonTitle pb-[10px] md:pb-[15px] lg:pb-[15px]xl:pb-[25px] 2xl:pb-[25px]">
                     embrace empathize empower
@@ -305,7 +196,7 @@ const HeroSection = () => {
 
                   <button className="heroHomeBtn">Request a Call back</button>
                 </div>
-              </div>
+              </div> */}
             </div>
           </div>
         </Slider>

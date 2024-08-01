@@ -9,18 +9,18 @@ const ContactEvent = () => {
         <div className='sectionGap'>
             <div className='lg:grid grid-cols-2 justify-between items-center'> 
                 <div>
-                    <p className='contactEventSmall'>Get In touch</p>
-                    <h3 className='conatactEventTitle'>let's chat: contact Us for personalized assistance! </h3>
+                    <p className='contactEventSmall'>Contact us</p>
+                    <h3 className='conatactEventTitle'>let's chat!</h3>
                     
-                    <p className='contactDescription'>Nam mollis aliquet hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur augue purus, cursus maximus malesuada.</p>
+                    {/* <p className='contactDescription'>Nam mollis aliquet hendrerit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Curabitur augue purus, cursus maximus malesuada.</p> */}
 
                     <div className='contactTitleSubttitleParent'>
                         <div className='contactIconParent'>
                             <IoCallSharp className='conatctEventIcon'></IoCallSharp>
                         </div>
                         <div>
-                            <h4 className='contactCTAtitle'>Have Quires ?</h4>
-                            <p className='contactCTAsubtitle'>+91847512157</p>
+                            <h4 className='contactCTAtitle'>9230977337</h4>
+                            {/* <p className='contactCTAsubtitle'>+91847512157</p> */}
                         </div>
                     </div>
                     <div className='contactTitleSubttitleParent pt-[25px]'>
@@ -28,8 +28,8 @@ const ContactEvent = () => {
                             <MdEmail className='conatctEventIcon'></MdEmail>
                         </div>
                         <div>
-                            <h4 className='contactCTAtitle'>Have Quires ?</h4>
-                            <p className='contactCTAsubtitle'>emopract@gmail.com</p>
+                            <h4 className='contactCTAtitle'>info.emopract.com</h4>
+                            {/* <p className='contactCTAsubtitle'>emopract@gmail.com</p> */}
                         </div>
                     </div>
                 </div>

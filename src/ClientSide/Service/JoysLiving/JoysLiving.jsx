@@ -72,8 +72,9 @@ const JoysLiving = () => {
   const settings = {
     dots: true,
     infinite: true,
+    autoplay : true,
     speed: 500,
-    slidesToShow: 1,
+    slidesToShow: 3,
     slidesToScroll: 1,
     responsive: [
       {
@@ -108,7 +109,7 @@ const JoysLiving = () => {
   };
 
   return (
-    <div className="sectionGap pt-[35px] md:pt-[60px]">
+    <div className="sectionGap pt-[0px] md:pt-[0px]">
       <div>
         <h3 className="joysTitle">joys of living</h3>
         <p className="joysPara">
@@ -131,7 +132,7 @@ const JoysLiving = () => {
       <div className="slider-container">
         <Slider {...settings}>
           {joyItems.map((item, index) => (
-            <Link to={item.link} key={index} className="px-2">
+            <Link to={''} key={index} className="px-2">
               <div>
                 <div className="joysSliderImgParent">
                   <img

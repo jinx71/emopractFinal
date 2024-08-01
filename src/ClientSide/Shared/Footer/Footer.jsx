@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaLinkedinIn,
   FaPinterest,
+  FaYoutube,
 } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
 import { IoSend } from "react-icons/io5";
@@ -42,8 +43,24 @@ const Footer = () => {
         </div>
       </div>
 
+      <div className="absolute  top-[127px]  lg:top-[200px] xl:top-[210px] 2xl:top-[250px] grid justify-center w-full ">
+        <div className=" bg-[#EDEDED] mx-[30px] md:mx-[50px] lg:mx-[100px] rounded-[10px] shadow-xl grid grid-cols-1 justify-center items-center">
+          <div className="footerTopSubParent">
+            
+            <div>
+              <h3 className="footerTopTitle">24/7 IVR  Support <br></br>
+9230977338 <br></br>
+*only for members</h3>
+            </div>
+           
+          </div>
+
+          
+        </div>
+      </div>
+
       {/* foooter content */}
-      <div className="pt-[187px] md:pt-[250px] lg:pt-[200px] xl:pt-[300px] 2xl:pt-[350px]">
+      <div className="pt-[374px] md:pt-[500px] lg:pt-[400px] xl:pt-[600px] 2xl:pt-[700px]">
         <div className="px-[30px] md:px-[50px]  lg:px-[60px] xl:px-[100px] pb-[25px] grid grid-cols-2 lg:grid-cols-5 justify-between gap-x-[35px] gap-y-[35px]">
           <div>
             <div className="footerLogoparent">
@@ -63,13 +80,13 @@ const Footer = () => {
               <div className="flex  pb-[15px] gap-x-[10px]">
                 <FaXTwitter size={28} className="footerSocailIcon" />
                 <FaLinkedinIn size={28} className="footerSocailIcon" />
-                <BsWhatsapp size={28} className="footerSocailIcon" />
+                <FaYoutube size={28} className="footerSocailIcon" />
               </div>
             </div>
           </div>
 
           <div>
-            <h2 className="footerMenuTextTitle">Link</h2>
+            <h2 className="footerMenuTextTitle">link</h2>
             <Link to="/About">
               <p className="footerMenuText">About Us</p>
             </Link>
@@ -80,10 +97,10 @@ const Footer = () => {
               {" "}
               <p className="footerMenuText">Membership</p>
             </Link>
-            <Link to="/blogs">
+            {/* <Link to="/blogs">
               {" "}
               <p className="footerMenuText">Blog</p>
-            </Link>
+            </Link> */}
             <Link to="/event">
               {" "}
               <p className="footerMenuText">Event</p>
@@ -97,7 +114,7 @@ const Footer = () => {
           </div>
 
           <div>
-            <h2 className="footerMenuTextTitle">Emopract Pvt Ltd</h2>
+            <h2 className="footerMenuTextTitle">emopract pvt ltd</h2>
             <p className="footerMenuText">Bhakta Tower</p>
             <p className="footerMenuText">KB-22, KB Block</p>
             <p className="footerMenuText">Sector- 3, Salt Lake</p>
@@ -107,10 +124,10 @@ const Footer = () => {
 
           <div>
             <h2 className="footerMenuTextTitle">newsletter</h2>
-            <p className="footerMenuText">
+            {/* <p className="footerMenuText">
               Nunc tincidunt mollis dui in tempor. Duis ultricies libero sit
               amet.{" "}
-            </p>
+            </p> */}
             <div className="relative inline-block">
               <input
                 type="text"
@@ -139,7 +156,7 @@ const Footer = () => {
 
         <hr />
 
-        <div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] ">
+        <div className="py-[25px] px-[30px] 2xl:py-[30px]  md:px-[50px]  lg:px-[60px] xl:px-[100px] text-center">
           <div
             className="flex justify-center items-center space-x-[40px]
           "

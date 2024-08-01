@@ -59,7 +59,7 @@ const InduvisulBlogHero = () => {
                                         <Link to="/membership" onClick={menuClose}><li>Membership</li></Link>
                                         <Link to="/event" onClick={menuClose}><li>Events</li></Link>
                                         
-                                        <Link to="/blogs" onClick={menuClose}><li>Blogs</li></Link>
+                                        {/* <Link to="/blogs" onClick={menuClose}><li>Blogs</li></Link> */}
                                         <Link to="/contact" onClick={menuClose}><li>Contact us</li></Link>
 
                                     </div>
@@ -84,7 +84,7 @@ const InduvisulBlogHero = () => {
                                     <Link to="/membership" onClick={menuClose}><li>Membership</li></Link>
                                     <Link to="/event" onClick={menuClose}><li>Events</li></Link>
 
-                                    <Link to="/blogs" onClick={menuClose}><li>Blogs</li></Link>
+                                    {/* <Link to="/blogs" onClick={menuClose}><li>Blogs</li></Link> */}
                                     <Link to="/contact" onClick={menuClose}><li>Contact us</li></Link>
 
                                 </div>
@@ -97,7 +97,7 @@ const InduvisulBlogHero = () => {
                 </div>
                 
                     {/* bg img footer content */}
-                    <div className='heroImgParent'>
+                    <div className='heroImgParent hidden'>
                         <div>
                             <h2 className='heroImgTitle'> Blog</h2>
                             <p className=' heroImgContentPara '>Home <span> <FaAngleRight ></FaAngleRight></span> Induvisul Blog</p>

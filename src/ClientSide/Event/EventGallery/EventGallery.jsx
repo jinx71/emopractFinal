@@ -2,7 +2,7 @@
 import React from "react";
 import { FaLocationDot } from "react-icons/fa6";
 import { Link } from "react-router-dom";
-
+import EldersDayOutPicnic from '../../../../public/Images/Elders-Day-Out-Picnic.jpeg';
 const EventGallery = () => {
   return (
     <div className="sectionGap ">
@@ -195,7 +195,7 @@ const EventGallery = () => {
               <div className="right6">
                 <img
                   className="h-full w-full  rounded-[10px] object-cover"
-                  src="https://i.ibb.co/1vMvvxt/Elders-Day-Out-Picnic.png"
+                  src= {EldersDayOutPicnic}
                   alt=""
                 />
               </div>

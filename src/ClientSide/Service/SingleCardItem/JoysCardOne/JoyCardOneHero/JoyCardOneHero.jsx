@@ -102,7 +102,7 @@ const JoyCardOneHero = () => {
                         </div>
                     </nav>
                     {/* bg img footer content */}
-                    <div className='heroImgParent'>
+                    <div className='heroImgParent hidden'>
                         <div>
                             <h2 className='heroImgTitle'>Joys of Living</h2>
                             <p className=' heroImgContentPara '>Home <span> <FaAngleRight ></FaAngleRight></span> service <FaAngleRight ></FaAngleRight>  Joys of Living</p>

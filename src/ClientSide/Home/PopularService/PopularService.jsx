@@ -4,11 +4,16 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { Link } from "react-router-dom";
-
+import companionSrc from '../../../../public/Images/Service/comp.jpg';
+import entertainmentSrc from '../../../../public/Images/Service/ent.png';
+import entHomeSrc from '../../../../public/Images/Service/entHome.jpg';
+import outingSrc from '../../../../public/Images/Service/outing.jpg';
+import regWorkSrc from '../../../../public/Images/Service/regWork.jpg';
+import techHelp from '../../../../public/Images/Service/techHelp.png';
 const PopularService = () => {
   var settings = {
     dots: true,
-    infinite: false,
+    infinite: true,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
@@ -53,11 +58,12 @@ const PopularService = () => {
           <div className="w-[366px]  mx-auto">
             <div className="slider-container ">
               <Slider {...settings}>
+                {/* Regular Work */}
                 <div className="">
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesRegularWork.png"
+                      src={regWorkSrc}
                       alt=""
                     />
                   </div>
@@ -74,12 +80,12 @@ const PopularService = () => {
                     </Link>
                   </div>
                 </div>
-
+                {/* Outing */}
                 <div className="">
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesOuting.png"
+                      src={outingSrc}
                       alt=""
                     />
                   </div>
@@ -96,58 +102,12 @@ const PopularService = () => {
                     </Link>
                   </div>
                 </div>
-
+              {/* Entertainment at home */}
                 <div>
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesCompanion.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="text-center">
-                    <h2 className="popularSlidertitle">Companion</h2>
-                    <p className="popularSlidertext">
-                      Sometimes we just want someone to sit with us and make us
-                      feel cocooned in companionship.
-                    </p>
-                    <Link to="/service">
-                      <button className="popularReadMoreBtn underline-offset-8">
-                        Read More
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="h-[350px] md:h-full">
-                    <img
-                      className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesEntertainment.png"
-                      alt=""
-                    />
-                  </div>
-
-                  <div className="text-center">
-                    <h2 className="popularSlidertitle">Entertainment</h2>
-                    <p className="popularSlidertext">
-                      People forego so many temptations because they have work,
-                      obligations, responsibilities, duties.
-                    </p>
-
-                    <Link to="/service">
-                      <button className="popularReadMoreBtn underline-offset-8">
-                        Read More
-                      </button>
-                    </Link>
-                  </div>
-                </div>
-
-                <div>
-                  <div className="h-[350px] md:h-full">
-                    <img
-                      className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesEntert.png"
+                      src={entHomeSrc}
                       alt=""
                     />
                   </div>
@@ -166,12 +126,36 @@ const PopularService = () => {
                     </Link>
                   </div>
                 </div>
-
+              {/* Entertainment*/}
                 <div>
                   <div className="h-[350px] md:h-full">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesTechHelp.png"
+                      src={entertainmentSrc}
+                      alt=""
+                    />
+                  </div>
+
+                  <div className="text-center">
+                    <h2 className="popularSlidertitle">Entertainment</h2>
+                    <p className="popularSlidertext">
+                      People forego so many temptations because they have work,
+                      obligations, responsibilities, duties.
+                    </p>
+
+                    <Link to="/service">
+                      <button className="popularReadMoreBtn underline-offset-8">
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              {/* Tech Help */}
+              <div>
+                  <div className="h-[350px] md:h-full">
+                    <img
+                      className="h-full w-full object-cover rounded-[10px]"
+                      src={techHelp}
                       alt=""
                     />
                   </div>
@@ -179,6 +163,30 @@ const PopularService = () => {
                     <h2 className="popularSlidertitle">Tech Help</h2>
                     <p className="popularSlidertext">
                       Today’s world runs on Wi-Fi, and apps rule our world.
+                    </p>
+                    <Link to="/service">
+                      <button className="popularReadMoreBtn underline-offset-8">
+                        Read More
+                      </button>
+                    </Link>
+                  </div>
+                </div>
+              {/* Companion */}
+               
+
+                <div>
+                  <div className="h-[350px] md:h-full">
+                    <img
+                      className="h-full w-full object-cover rounded-[10px]"
+                      src={companionSrc}
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h2 className="popularSlidertitle">Companion</h2>
+                    <p className="popularSlidertext">
+                      Sometimes we just want someone to sit with us and make us
+                      feel cocooned in companionship.
                     </p>
                     <Link to="/service">
                       <button className="popularReadMoreBtn underline-offset-8">
@@ -258,11 +266,12 @@ const PopularService = () => {
           <div className="w-full mx-auto absolute top-[-100px]">
             <div className="slider-container ">
               <Slider {...settingsLarge}>
+
                 <div className="relative me-6">
                   <div className="2xl:h-[352px] 2xl:px-[10px] xl:h-[352px]  xl:px-[15px] md:h-[352px] md:px-[10px] ">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesRegularWork.png"
+                      src={regWorkSrc}
                       alt=""
                     />
                   </div>
@@ -282,7 +291,7 @@ const PopularService = () => {
                   <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesOuting.png"
+                      src={outingSrc}
                       alt=""
                     />
                   </div>
@@ -302,47 +311,7 @@ const PopularService = () => {
                   <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesCompanion.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="text-center">
-                    <h2 className="largeCardTitle">Companion</h2>
-                    <p className="largeCardPara">
-                      Sometimes we just want someone to sit with us and make us
-                      feel cocooned in companionship.
-                    </p>
-                    <button className="largeCardBtn underline">
-                      Read More
-                    </button>
-                  </div>
-                </div>
-
-                <div className=" ">
-                  <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
-                    <img
-                      className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesEntert.png"
-                      alt=""
-                    />
-                  </div>
-                  <div className="text-center">
-                    <h2 className="largeCardTitle">Entertainment</h2>
-                    <p className="largeCardPara">
-                      People forego so many temptations because they have work,
-                      obligations, responsibilities, duties.
-                    </p>
-                    <button className="largeCardBtn underline">
-                      Read More
-                    </button>
-                  </div>
-                </div>
-
-                <div className=" ">
-                  <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
-                    <img
-                      className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesEntertainment.png"
+                      src={entHomeSrc}
                       alt=""
                     />
                   </div>
@@ -362,7 +331,27 @@ const PopularService = () => {
                   <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
                     <img
                       className="h-full w-full object-cover rounded-[10px]"
-                      src="./Images/homeOurServicesTechHelp.png"
+                      src={entertainmentSrc}
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h2 className="largeCardTitle">Entertainment</h2>
+                    <p className="largeCardPara">
+                      People forego so many temptations because they have work,
+                      obligations, responsibilities, duties.
+                    </p>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+
+                <div className=" ">
+                  <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
+                    <img
+                      className="h-full w-full object-cover rounded-[10px]"
+                      src={techHelp}
                       alt=""
                     />
                   </div>
@@ -376,6 +365,34 @@ const PopularService = () => {
                     </button>
                   </div>
                 </div>
+
+                <div className=" ">
+                  <div className="2xl:h-[352px] xl:h-[352px] 2xl:px-[10px] xl:px-[15px] md:h-[352px] md:px-[10px]">
+                    <img
+                      className="h-full w-full object-cover rounded-[10px]"
+                      src={companionSrc}
+                      alt=""
+                    />
+                  </div>
+                  <div className="text-center">
+                    <h2 className="largeCardTitle">Companion</h2>
+                    <p className="largeCardPara">
+                      Sometimes we just want someone to sit with us and make us
+                      feel cocooned in companionship.
+                    </p>
+                    <button className="largeCardBtn underline">
+                      Read More
+                    </button>
+                  </div>
+                </div>
+
+               
+
+               
+
+                
+
+                
               </Slider>
             </div>
           </div>
